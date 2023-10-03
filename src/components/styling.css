@@ -1,0 +1,45 @@
+.text-title {
+    display: block;
+    position: relative;
+}
+
+.icon-boostrap {
+    width: auto;
+    height: 80px;
+    margin: auto;
+}
+
+.form-input {
+    text-align: left;
+    width: 62%;
+    display: inline-block;
+}
+
+/* Header */
+.header {
+    display: flex;
+}
+
+.header>h2 {
+    margin-left: 25px;
+    margin-right: 45rem;
+}
+
+.header>div,
+a {
+    text-align: right;
+    /* word-spacing: 15px; */
+    margin: 0;
+    padding: 26px 18px 0 1px;
+    text-decoration: none;
+    color: #47B2E4;
+    font-family: system-ui;
+}
+
+.form-product{
+    text-align: center;
+}
+
+.form-product > label {
+    color: black;
+}

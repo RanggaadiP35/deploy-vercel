@@ -1,0 +1,371 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+}
+
+.header>h2 {
+    margin-left: 25px;
+    margin-right: 45rem;
+}
+
+.header>div,
+a {
+    text-align: right;
+    /* word-spacing: 15px; */
+    margin: 0;
+    padding: 26px 18px 0 1px;
+    text-decoration: none;
+    color: #47B2E4;
+    font-family: system-ui;
+}
+
+/* Section content */
+.section {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 66px 110px 81px 109px;
+    justify-content: center;
+    align-items: center;
+    background-color: #37517E;
+}
+
+.hero {
+    width: 549px;
+    height: 420px;
+    flex-shrink: 0;
+    margin-left: 65px;
+}
+
+.text>h1 {
+    color: white;
+    font-size: 37px;
+    font-family: system-ui;
+    /* line-height: 10px; */
+}
+
+.text>p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: system-ui;
+}
+
+.btn-get>a,
+.copy-label {
+    line-height: 85px;
+    color: white;
+    text-decoration: none;
+}
+
+/* button */
+.btn-get> .watch {
+    background-color: #47B2E4;
+    padding: 9px 21px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 4rem;
+}
+
+a:hover,
+a:active {
+    background-color: #96B6C5;
+}
+
+/* Footer */
+
+.section-2 {
+    /* display: flex; */
+    /* width: 1441px; */
+    padding: 50px 426px;
+    /* align-items: flex-start; */
+    background-color: #F3F5FA;
+}
+
+.section-2>h3 {
+    color: #37517E;
+    text-align: center;
+    font-family: Jost;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.section-2>p {
+    color: #444;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+    width: 108%;
+}
+
+.section-2>.input-text {
+    display: flex;
+    padding: 9.25px 20.016px 9.25px 0px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.section-2>.input-text #join {
+    width: 500px;
+    height: 30.5px;
+    border-radius: 26px;
+    border: none;
+}
+
+.section-2>.input-text a {
+    color: white;
+    background-color: #47B2E4;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    right: 425px;
+    margin-top: -6px;
+    text-decoration: none;
+}
+
+.section-2 a:hover {
+    background-color: #96B6C5;
+}
+
+.section-2 a:hover {
+    color: #37517E;
+}
+
+.footer {
+    display: flex;
+    /* height: 81px; */
+    padding-left: 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 608.362px;
+    background-color: #37517E;
+}
+
+.footer>label,
+h5 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.footer>h5 {
+    color: white;
+    line-height: 95px;
+}
+
+.boostrap {
+    color: #47B2E4;
+}
+
+.section-3 {
+    display: flex;
+    /* padding-bottom: 0px; */
+    align-items: flex-start;
+    /* padding: 42px 96px 0px 96px */
+    gap: 5px;
+}
+
+/* section 3 */
+.Arsha {
+    display: flex;
+    padding: 0px 2.019px 35.188px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin: auto;
+}
+
+.Arsha>.phone label {
+    color: #5E5E5E;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Arsha>.phone {
+    display: flex;
+    justify-content: right;
+}
+
+.Arsha>.phone p {
+    margin: auto;
+    color: #5E5E5E;
+}
+
+.Arsha>.email label {
+    color: #5E5E5E;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Arsha>.email {
+    display: flex;
+    justify-content: right;
+}
+
+.Arsha>.email p {
+    margin: auto;
+    color: #5E5E5E;
+}
+
+.Arsha h3 {
+    color: #37517E;
+    font-family: Jost;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 100% */
+    text-transform: uppercase;
+}
+
+.Arsha > p .newyork {
+    display: block;
+    position: relative;
+    /* top: 20px; */
+}
+
+.Arsha > p .united {
+    display: block;
+    position: relative;
+    /* top: 20px; */
+}
+
+.Arsha > p {
+    color: #5E5E5E;
+}
+
+.useful>.menu {
+    display: flex;
+    /* padding: 0px 12px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10.19px;
+    padding: 0px 0px 0px 17px;
+}
+
+.useful>h3 {
+    color: #37517E;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.2px;
+    /* 100% */
+    text-transform: uppercase;
+}
+
+.useful>.menu a {
+    color: #777;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1px;
+    text-decoration: none;
+}
+
+.our {
+    display: flex;
+    /* padding: 0px 12px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 18.19px; */
+    padding: 0px 2.019px 35.188px 12px;
+    margin: auto;
+}
+
+.our>h3 {
+    color: #37517E;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.2px;
+    /* 100% */
+    text-transform: uppercase;
+}
+
+.our> .menu-our a {
+    color: #777;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1px;
+    text-decoration: none;
+}
+
+.our>.menu-our {
+    display: flex;
+    /* padding: 0px 12px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10.19px;
+    /* padding: 0px 2.019px 35.188px 12px;
+    margin: auto; */
+    padding: 0px 0px 0px 17px;
+
+}
+
+.social>h3 {
+    color: #37517E;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.2px;
+    /* 100% */
+    text-transform: uppercase;
+}
+
+.social> h4 {
+    color: #777;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1px;
+}
+
+.social>.menu-social{
+    display: flex;
+    width: 278px;
+    padding-right: 0px;
+    align-items: flex-start;
+    gap: 7.641px;
+}
+
+.social>.menu-social a {
+    background-color: #47B2E4;
+    border-radius: 18px;
+    height: 35px;
+    width: 35px;
+}
+
+.social> h4 .social-text {
+    display: block;
+    position: relative;
+    top: 20px;
+}
+
+/* background-color: #0000;
+color: black;
+--bs-border-radius: 15px;
+border: none; */
